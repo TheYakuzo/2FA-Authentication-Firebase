@@ -1,0 +1,34 @@
+{
+  "name": "node-2fa",
+  "version": "1.0.0",
+  "description": "Node API for 2FA Authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EpitechMscProPromo2023/T-POO-700-NCY-3.git"
+  },
+  "author": "PELTIER Jeremy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EpitechMscProPromo2023/T-POO-700-NCY-3/issues"
+  },
+  "homepage": "https://github.com/EpitechMscProPromo2023/T-POO-700-NCY-3#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "firebase": "^8.0.1",
+    "qrcode": "^1.4.4",
+    "speakeasy": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
